@@ -22,9 +22,10 @@ my %WriteMakefileArgs = (
   "LICENSE" => "perl",
   "NAME" => "Number::UN",
   "PREREQ_PM" => {
-    "JSON" => "2.53"
+    "JSON" => "2.53",
+    "Path::Class" => "0.25"
   },
-  "VERSION" => "0.001",
+  "VERSION" => "0.002",
   "test" => {
     "TESTS" => "t/*.t"
   }

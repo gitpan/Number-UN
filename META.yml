@@ -15,4 +15,5 @@ meta-spec:
 name: Number-UN
 requires:
   JSON: 2.53
-version: 0.001
+  Path::Class: 0.25
+version: 0.002
